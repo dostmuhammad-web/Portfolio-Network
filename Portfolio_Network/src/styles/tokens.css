@@ -1,0 +1,96 @@
+:root {
+  color-scheme: light;
+
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+
+  --bg: #ffffff;
+  --bg-subtle: #f6f8fa;
+  --bg-inset: #eef1f4;
+  --bg-overlay: rgba(31, 35, 40, 0.55);
+  --bg-elevated: #ffffff;
+
+  --fg: #1f2328;
+  --fg-strong: #0d1117;
+  --fg-muted: #59636e;
+  --fg-subtle: #818b98;
+  --fg-onaccent: #ffffff;
+
+  --border: #d1d9e0;
+  --border-strong: #b7c0c9;
+  --border-muted: #e4e8ed;
+
+  --accent: #0969da;
+  --accent-hover: #0860ca;
+  --accent-subtle: #ddf4ff;
+  --accent-border: #a3c9f2;
+  --accent-fg: #0550ae;
+
+  --success: #1a7f37;
+  --success-subtle: #dafbe1;
+  --danger: #cf222e;
+  --danger-subtle: #ffebe9;
+  --attention: #9a6700;
+  --attention-subtle: #fff8c5;
+  --like: #d1242f;
+
+  --shadow-sm: 0 1px 2px rgba(31, 35, 40, 0.08);
+  --shadow-md: 0 3px 8px rgba(31, 35, 40, 0.1);
+  --shadow-lg: 0 12px 32px rgba(31, 35, 40, 0.18);
+  --ring: 0 0 0 3px rgba(9, 105, 218, 0.28);
+
+  --radius-sm: 6px;
+  --radius: 10px;
+  --radius-lg: 14px;
+  --radius-pill: 999px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+
+  --navbar-height: 60px;
+  --sidebar-width: 236px;
+  --rail-width: 312px;
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+
+  --bg: #0d1117;
+  --bg-subtle: #161b22;
+  --bg-inset: #1c2129;
+  --bg-overlay: rgba(1, 4, 9, 0.7);
+  --bg-elevated: #161b22;
+
+  --fg: #e6edf3;
+  --fg-strong: #f6f8fa;
+  --fg-muted: #9198a1;
+  --fg-subtle: #6e7681;
+
+  --border: #3d444d;
+  --border-strong: #545d68;
+  --border-muted: #262c36;
+
+  --accent: #4493f8;
+  --accent-hover: #58a6ff;
+  --accent-subtle: #121d2f;
+  --accent-border: #1f4b8a;
+  --accent-fg: #79c0ff;
+
+  --success: #3fb950;
+  --success-subtle: #0f2913;
+  --danger: #f85149;
+  --danger-subtle: #2b0e0f;
+  --attention: #d29922;
+  --attention-subtle: #272115;
+  --like: #f85149;
+
+  --shadow-sm: 0 1px 2px rgba(1, 4, 9, 0.5);
+  --shadow-md: 0 3px 10px rgba(1, 4, 9, 0.6);
+  --shadow-lg: 0 16px 40px rgba(1, 4, 9, 0.7);
+  --ring: 0 0 0 3px rgba(68, 147, 248, 0.4);
+}
